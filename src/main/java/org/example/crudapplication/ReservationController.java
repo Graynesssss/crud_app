@@ -51,7 +51,7 @@ public class ReservationController {
                 .body(reservationService.searchAllByFilter(filter));
         // return ResponseEntity.ok(reservationService.searchAllByFilter(filter))
         // Это эквивалетные операции.
-    };
+    }
 
     @PostMapping
     public ResponseEntity<ReservationResponseModel> CreateReservation(

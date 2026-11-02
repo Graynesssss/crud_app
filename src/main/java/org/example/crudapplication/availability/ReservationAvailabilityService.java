@@ -29,7 +29,7 @@ public class ReservationAvailabilityService {
                 (roomId, startDate,endDate, ReservationStatus.APPROVED);
 
         log.info("Conflict with ids={}",conflictIds);
-        if(!conflictIds.isEmpty()){return false;};
+        if(!conflictIds.isEmpty()){return false;}
 
         log.info("Reservation is available");
         return true;

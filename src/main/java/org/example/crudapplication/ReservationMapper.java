@@ -1,6 +1,5 @@
 package org.example.crudapplication;
 
-import org.example.crudapplication.ReservationResponseModel;
 import org.springframework.stereotype.Component;
 
 @Component
